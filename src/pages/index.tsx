@@ -31,7 +31,7 @@ export default function Home({
     >
       <div className={styles.container}>
         <Head>
-          <title>Início | move.it</title>
+          <title>Início | mova.se</title>
         </Head>
 
         <ExperienceBar />

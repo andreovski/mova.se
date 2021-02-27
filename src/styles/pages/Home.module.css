@@ -16,3 +16,22 @@
   gap: 6.25rem;
   align-content: center;
 }
+
+@media(max-width: 800px) {
+  .container {
+    height: 100%;
+  }
+  
+  .container section {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 0 3rem;
+  }
+}
+
+@media(max-width: 440px) {
+  .container section {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+}
